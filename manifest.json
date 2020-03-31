@@ -1,0 +1,31 @@
+{
+	"name": "Epics HYD!",
+	"version": "0.1",
+	"description": "Epics.gg Hide Yo Diamonds! Hide diamond packs from appearing in the pack store",
+	"background": {
+      "scripts": ["background.js"],
+      "persistent": false
+    },
+    "permissions": ["declarativeContent", "activeTab"],
+	"content_scripts": [
+		{
+	    	"matches": ["https://app.epics.gg/csgo/packs"],
+	    	"js": ["/hide-diamonds.js"]
+		}
+	],
+    "page_action": {
+		"default_icon": {
+			"16": "img/logo16.png",
+			"32": "img/logo32.png",
+			"48": "img/logo48.png",
+			"128": "img/logo128.png"
+		}
+    },
+	"icons": {
+		"16": "img/logo16.png",
+		"32": "img/logo32.png",
+		"48": "img/logo48.png",
+		"128": "img/logo128.png"
+	},
+	"manifest_version": 2
+}

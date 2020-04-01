@@ -1,6 +1,6 @@
 {
 	"name": "Epics HYD!",
-	"version": "0.1",
+	"version": "0.2",
 	"description": "Epics.gg Hide Yo Diamonds! Hide diamond packs from appearing in the pack store",
 	"background": {
       "scripts": ["background.js"],

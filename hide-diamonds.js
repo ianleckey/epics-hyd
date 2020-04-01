@@ -4,8 +4,8 @@ var observer = new MutationObserver(function(mutations) {
 
     for (var i = 0; i < mutation.addedNodes.length; i++) {
   		var node = mutation.addedNodes[i]
-		let elh2 = Array.from(document.querySelectorAll('h2'))
-  		.find(el => el.textContent === 'Diamond Pack 2020');
+		  let elh2 = Array.from(document.querySelectorAll('h2')).find(el => el.textContent === 'Diamond Pack 2020');
+      console.log(typeof elh2);
   		if(typeof elh2 === 'object') {
   			return removeDiamond(elh2);
   		}
@@ -14,10 +14,10 @@ var observer = new MutationObserver(function(mutations) {
 })
 
 observer.observe(document.body, {
-    childList: true
-  , subtree: true
-  , attributes: false
-  , characterData: false
+  childList: true,
+  subtree: true,
+  attributes: false,
+  characterData: false
 })
 
 function removeDiamond(elh2) {

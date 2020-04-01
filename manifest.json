@@ -9,7 +9,7 @@
     "permissions": ["declarativeContent", "activeTab"],
 	"content_scripts": [
 		{
-	    	"matches": ["https://app.epics.gg/csgo/packs"],
+	    	"matches": ["https://app.epics.gg/*"],
 	    	"js": ["/hide-diamonds.js"]
 		}
 	],

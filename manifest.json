@@ -1,12 +1,12 @@
 {
 	"name": "Epics HYD!",
-	"version": "0.3",
+	"version": "0.4",
 	"description": "Epics.gg Hide Yo Diamonds! Hide diamond packs from appearing in the pack store",
 	"background": {
       "scripts": ["background.js"],
       "persistent": false
     },
-    "permissions": ["declarativeContent", "activeTab"],
+    "permissions": ["declarativeContent", "https://app.epics.gg/*"],
 	"content_scripts": [
 		{
 	    	"matches": ["https://app.epics.gg/*"],

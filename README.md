@@ -6,6 +6,12 @@ This extension hides 2020 Diamond packs from the pack store on the Epics.gg web 
 
 ## Installation
 
+### Web store
+
+Available to install from the Chrome web store: https://chrome.google.com/webstore/detail/epics-hyd/ldilbbcjkcbdjpeeoidnpgkdidlbmego/related
+
+### Manual
+
 To install, first download the [latest release](https://github.com/ianleckey/epics-hyd/releases).
 
 Once downloaded, visit `chrome://extensions` in your address bar and click "Load unpacked". Browse to the downloaded release and heypresto!
